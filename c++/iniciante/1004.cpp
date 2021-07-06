@@ -7,7 +7,7 @@ int main() {
    int a,b;
    cin>>a;
    cin>>b;
-   cout<<"X = "<<a+b<<endl;
+   cout<<"PROD = "<<a*b<<endl;
  
     return 0;
 }

@@ -4,10 +4,10 @@ using namespace std;
  
 int main() {
  
-   int a,b;
-   cin>>a;
-   cin>>b;
-   cout<<"X = "<<a+b<<endl;
+    int KM;
+    
+    cin>>KM;
+    cout<<KM*2<<" minutos"<<endl;
  
     return 0;
 }
