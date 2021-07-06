@@ -1,5 +1,0 @@
-nome = input()
-sal = float(input())
-ven = float(input())
-salt = float(sal+0.15*ven)
-print('TOTAL = R$ {:.2f}'.format(salt))
