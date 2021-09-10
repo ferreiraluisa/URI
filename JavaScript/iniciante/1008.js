@@ -8,4 +8,4 @@ var salaryPerHour = parseFloat(lines.shift());
 
 var salary = numberWorkedHours * salaryPerHour;
 
-console.log(`NUMBER = ${number} \nSALARY = U$ ${salary.toFixed(2)}`);
+console.log(`NUMBER = ${number}\nSALARY = U$ ${salary.toFixed(2)}`);
