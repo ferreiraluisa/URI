@@ -3,12 +3,23 @@ var input = require('fs').readFileSync('/dev/stdin', 'utf8');
 var lines = input.split(' ');
 
 
-var a = parseInt(lines.shift());
-var b = parseInt(lines.shift());
-var c = parseInt(lines.shift());
+var a = parseFloat(lines.shift());
+var b = parseFloat(lines.shift());
+var c = parseFloat(lines.shift());
 
-var maior = (a + b + Math.abs(a-b))/2;
+const pi = 3.14159;
 
-maior = (maior + c + Math.abs(maior-c))/2;
+var areaTriangulo = (a*c)/2;
+console.log('TRIANGULO:', areaTriangulo.toFixed(3));
 
-console.log(maior,'eh o maior');
+var areaCirculo = c * c * pi;  
+console.log('CIRCULO:', areaCirculo.toFixed(3));
+
+var areaTrapezio = ((a+b)*c)/2;
+console.log('TRAPEZIO:', areaTrapezio.toFixed(3));
+
+var areaQuadrado = b*b;
+console.log('QUADRADO:', areaQuadrado.toFixed(3));
+
+var areaRetangulo = a*b;
+console.log('RETANGULO:', areaRetangulo.toFixed(3));
