@@ -11,4 +11,4 @@ var maior = (a + b + Math.abs(a-b))/2;
 
 maior = (maior + c + Math.abs(maior-c))/2;
 
-console.log(maior,'eh maior');
+console.log(maior,'eh o maior');
